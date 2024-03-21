@@ -17,3 +17,7 @@ python Powershell_Analyzer.py -f <FILE>
 ```
 ![image](https://github.com/davincico/PowerShell-Analyzer/assets/50984080/c7d79e62-339e-42e1-b31b-d0fe98b73461)
 
+## Pending Improvements & Ideas
+1. Improve the json database for high fidelity commonly abused PowerShell strings found in malware/malicious scripts
+2. Enrichment using VirusTotal on the MD5 hash extracted for the file
+3. Serve as a module for a more comprehensive all-in-one malware/file analyzer
