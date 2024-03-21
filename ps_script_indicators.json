@@ -1,0 +1,67 @@
+{
+    "Obfuscation/Encoding": {
+        "script_IOCs": [
+            "FromBase64String",
+            "sYsTem.io.comprEsSIOn.CoMPReSsIONmOdE",
+            "EncodedCommand",
+            "-bxor",
+            "fromHEXString",
+            "System.Text.Encoding",
+            "UTF8.GetString",
+            "System.Convert"
+        ],
+        "counter": 0
+    },
+    "Evasion/Bypass": {
+        "script_IOCs": [
+            "Microsoft.Win32.UnsafeNativeMethods",
+            "Start-Job",
+            "-EP BYPASS",
+            "-ExecutionPolicy",
+            "DisableIOAVProtection",
+            "WindowsDefender",
+            "mpcmdrun.exe",
+            "AmsiUtils"
+        ],
+        "counter": 0
+    },
+    "FileSystem": {
+        "script_IOCs": [
+            "env:APPDATA",
+            "WriteAllText",
+            "IO.File",
+            "Remove-Item",
+            "expand-archive",
+            "New-Item"
+        ],
+        "counter": 0
+    },
+    "Networking": {
+        "script_IOCs": [
+            "user-agent",
+            "Mozilla/4.0",
+            "Headers.add",
+            "IPAddress",
+            "Start-BitsTransfer",
+            "MSXML2.XMLH",
+            "IEX",
+            "DownloadFile",
+            "PowerShellTcp",
+            "Text.AsciiEncoding",
+            "Reverse TCP",
+            "System.Net.WebRequest",
+            "GetSystemWebProxy",
+            "webclient",
+            "Host",
+            "TcpClient",
+            "Net.Sockets",
+            "Port",
+            "AcceptTcpClient",
+            "Invoke-WebRequest",
+            "Invoke-RestMethod",
+            "-Uri",
+            "System.Net.HTTPWebRequest"
+        ],
+        "counter": 0
+    }
+}
