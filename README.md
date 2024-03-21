@@ -14,4 +14,4 @@ Currently still working to expand the indicators sets in the json library.
 ```
 python Powershell_Analyzer.py -f <FILE>
 ```
-![image](https://github.com/davincico/PowerShell-Analyzer/assets/50984080/d7d615c4-db25-4686-96a9-68789e0bae66)
+![image](https://github.com/davincico/PowerShell-Analyzer/assets/50984080/5498d42f-5be6-4510-9c82-006041ece472)
