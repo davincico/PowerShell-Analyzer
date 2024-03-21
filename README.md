@@ -7,11 +7,13 @@ This program is a tool written in Python to scan a given file for high fidelity 
 * FileSystem - Creation and deletion of files
 * Networking - Connect, downloads and web request capabilities
 
-Currently still working to expand the indicators sets in the json library.
+Added MD5sum functionalities for file input.
+Currently still working to expand the indicators sets in the json library. Feel free to contribute!
 
 ## Program Usage
 
 ```
 python Powershell_Analyzer.py -f <FILE>
 ```
-![image](https://github.com/davincico/PowerShell-Analyzer/assets/50984080/5498d42f-5be6-4510-9c82-006041ece472)
+![image](https://github.com/davincico/PowerShell-Analyzer/assets/50984080/c7d79e62-339e-42e1-b31b-d0fe98b73461)
+
