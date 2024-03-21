@@ -8,6 +8,7 @@ This program is a tool written in Python to scan a given file for high fidelity 
 * Networking - Connect, downloads and web request capabilities
 
 Added MD5sum functionalities for file input.
+Pending: Base64 decoding functionality before scanning
 Currently still working to expand the indicators sets in the json library. Feel free to contribute!
 
 ## Program Usage
